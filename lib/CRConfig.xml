@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?><CrystalReportEngine-configuration>
+    <reportlocation>.</reportlocation>
+    <timeout>10</timeout>
+    
+    <ExternalFunctionLibraryClassNames> 
+		<classname> </classname>
+		<classname> </classname>
+    </ExternalFunctionLibraryClassNames>
+    
+<keycode>b6w60-01cs200-00gkvz1-0jt0</keycode>
+<Javaserver-configuration>
+<DataDriverCommon>
+	<JavaDir>C:\Program Files\Business Objects\JRE\bin</JavaDir>
+    <Classpath>
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\CRLOVExternal.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\cecore.jar.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\celib.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\ceplugins.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\cereports.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\cesession.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\ceutils.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\cexsd.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\CorbaIDL.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\CRDBJavabeansServer.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\CRDBJavaServer.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\CRDBJavaServerCommon.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\CRDBJDBCServer.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\CRDBXMLServer.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\crlov.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\crlovexternal.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\crlovmanifest.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\CrystalCharting.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\CrystalCommon.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\CrystalContentModels.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\CrystalExporters.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\CrystalExportingBase.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\CrystalFormulas.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\CrystalQueryEngine.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\CrystalReportEngine.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\CrystalReportingCommon.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\ebus405.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\jrcerom.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\keycodeDecoder.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\MetafileRenderer.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\rasapp.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\rascore.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\rpoifs.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\Serialization.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\u211java.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\URIUtil.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\webreporting.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\libwebreporting-jsf.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\asn1.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\axis.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\axis-ant.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\certj.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\commons-discovery.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\commons-logging.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\Concurrent.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\CRDBXMLExternal.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\freessl201.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\icu4j.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\jaxrpc.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\jsafe.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\pullparser.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\log4j.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\pullparser.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\saaj.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\sslj.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\wsdl4j.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\xbean.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\xercesImpl.jar;
+C:\Program Files\Common Files\Business Objects\3.0\java\lib\xml-apis.jar;${CLASSPATH}</Classpath>
+	<IORFileLocation>${TEMP}</IORFileLocation>
+	<JavaServerTimeout>1800</JavaServerTimeout>
+	<JVMMaxHeap>64000000</JVMMaxHeap>
+	<JVMMinHeap>32000000</JVMMinHeap>
+	<NumberOfThreads>100</NumberOfThreads>
+</DataDriverCommon>
+<JDBC>
+	<CacheRowSetSize>100</CacheRowSetSize>
+	<JDBCURL></JDBCURL>
+	<JDBCClassName></JDBCClassName>
+	<JDBCUserName></JDBCUserName>
+	<JNDIURL></JNDIURL>
+	<JNDIConnectionFactory></JNDIConnectionFactory>
+	<JNDIInitContext>/</JNDIInitContext>
+	<JNDIUserName>weblogic</JNDIUserName>
+	<GenericJDBCDriver>
+		<Option>No</Option>
+		<DatabaseStructure>catalogs,tables</DatabaseStructure>
+		<StoredProcType>Standard</StoredProcType>
+		<LogonStyle>Oracle</LogonStyle>
+	</GenericJDBCDriver>
+</JDBC>
+<XML>
+	<CacheRowSetSize>100</CacheRowSetSize>
+	<PreReadNBytes>4096</PreReadNBytes>
+	<XMLLocalURL></XMLLocalURL>
+	<SchemaLocalURL></SchemaLocalURL>
+	<XMLHttpURL></XMLHttpURL>
+	<SchemaHttpURL></SchemaHttpURL>
+</XML>
+<JavaBeans>
+    <CacheRowSetSize>100</CacheRowSetSize>
+	<JavaBeansClassPath></JavaBeansClassPath>
+</JavaBeans>
+</Javaserver-configuration>
+</CrystalReportEngine-configuration>
